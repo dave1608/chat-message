@@ -10,6 +10,7 @@
         dense
       ></q-input>
 
+      
       <!-- Componente de chat -->
       <ChatComponent :messages="messages" :userActual="message.name" />
 
